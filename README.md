@@ -107,37 +107,6 @@ Quantum computing implementation using Qiskit to generate true random numbers, d
 - **Live Demo**: [https://quantum-random-number-generator-po8.vercel.app/](https://quantum-random-number-generator-po8.vercel.app/)
 - **Features**: Quantum random number generation, quantum cryptography demonstration
 
-## 💡 Skills & Technologies
-
-### Proficient In
-- HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS
-- React.js, Express.js, Node.js, PostgreSQL
-- Git, Linux, npm
-
-### Currently Learning
-- Advanced React patterns, TypeScript
-- Quantum computing with Qiskit
-- Cloud services (Google Cloud Platform)
-- Docker containerization
-
-### Experimental
-- Quantum computing applications
-- Advanced backend architectures
-
-## 🤝 Contributing
-
-While this is a personal portfolio, I'm open to suggestions and improvements:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 📞 Contact
 
 - **Name**: Rafael Mota
