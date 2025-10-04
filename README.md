@@ -1,16 +1,154 @@
-# React + Vite
+# Rafael Mota - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing my journey as a developer, highlighting full-stack development projects and quantum computing explorations.
 
-Currently, two official plugins are available:
+![Portfolio Preview](src/assets/preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## React Compiler
+- **Responsive Design**: Fully responsive layout that works seamlessly across all devices
+- **Smooth Animations**: Framer Motion-powered animations for engaging user experience
+- **Interactive Projects Gallery**: Carousel showcasing featured projects with live demos and source code links
+- **Skills Section**: Visual representation of technical skills with proficiency levels
+- **Contact Form**: Functional contact section for professional inquiries
+- **Modern UI**: Clean, minimal design powered by Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
+- **React 19** - Modern JavaScript library for building user interfaces
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Production-ready motion library for React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Libraries & Tools
+- **React Icons** - Popular icon packs as React components
+- **React Slick** - Carousel component for project showcase
+- **ESLint** - JavaScript linting utility
+
+## 📂 Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+│   ├── Navbar.jsx      # Navigation header
+│   ├── Hero.jsx        # Landing section
+│   ├── About.jsx       # About me section
+│   ├── Skills.jsx      # Skills and technologies
+│   ├── Projects.jsx    # Featured projects carousel
+│   ├── Contact.jsx     # Contact form
+│   └── Footer.jsx      # Footer with social links
+├── assets/             # Static assets (images, icons)
+├── utils/              # Utility functions
+├── App.jsx            # Main application component
+└── main.jsx           # Application entry point
+```
+
+## 🛠️ Installation
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn package manager
+
+### Setup Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/RafaelMota02/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+5. **Preview production build**
+   ```bash
+   npm run preview
+   ```
+
+## 📋 Available Scripts
+
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build the project for production
+- `npm run lint` - Run ESLint for code quality checks
+- `npm run preview` - Preview the production build locally
+
+## 🎯 Featured Projects
+
+### 1. Email Automation Application
+A comprehensive email campaign management platform featuring SMTP configuration, recipient management, and automated email sending with analytics.
+
+- **Tech Stack**: React, Node.js, PostgreSQL, Express, Tailwind CSS
+- **Live Demo**: [https://email-automation-app-rho.vercel.app/](https://email-automation-app-rho.vercel.app/)
+- **Features**: Bulk email sending, campaign analytics, SMTP configuration
+
+### 2. Lifehub Management System
+Comprehensive application for personal and professional management, featuring dashboard analytics, task management, and productivity tools.
+
+- **Tech Stack**: React, Node.js, PostgreSQL, Socket.io, Chart.js
+- **Features**: Dashboard analytics, task management, productivity tracking
+
+### 3. Quantum Random Number Generator
+Quantum computing implementation using Qiskit to generate true random numbers, demonstrating advanced cryptographic principles.
+
+- **Tech Stack**: Python, Qiskit, Quantum Computing, Cryptography
+- **Live Demo**: [https://quantum-random-number-generator-po8.vercel.app/](https://quantum-random-number-generator-po8.vercel.app/)
+- **Features**: Quantum random number generation, quantum cryptography demonstration
+
+## 💡 Skills & Technologies
+
+### Proficient In
+- HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS
+- React.js, Express.js, Node.js, PostgreSQL
+- Git, Linux, npm
+
+### Currently Learning
+- Advanced React patterns, TypeScript
+- Quantum computing with Qiskit
+- Cloud services (Google Cloud Platform)
+- Docker containerization
+
+### Experimental
+- Quantum computing applications
+- Advanced backend architectures
+
+## 🤝 Contributing
+
+While this is a personal portfolio, I'm open to suggestions and improvements:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 📞 Contact
+
+- **Name**: Rafael Mota
+- **GitHub**: [RafaelMota02](https://github.com/RafaelMota02)
+- **Portfolio**: [Live Portfolio](https://rafaelmota02.github.io/portfolio/)
+
+Feel free to reach out for collaborations, opportunities, or just to connect!
+
+## 🙏 Acknowledgments
+
+- Built with [Vite](https://vitejs.dev/) for the blazing fast development experience
+- Styled with [Tailwind CSS](https://tailwindcss.com/) for modern design system
+- Icons provided by [React Icons](https://react-icons.github.io/react-icons/)
+- Animations powered by [Framer Motion](https://www.framer.com/motion/)
