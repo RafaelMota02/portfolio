@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import emailScreenshot from '../assets/email-automation.png';
 import quantumScreenshot from '../assets/quantum-random-number-gen.png';
+import lifehubScreenshot from '../assets/Screenshot_20251006_210011.png';
 
 const Projects = () => {
   const projects = [
@@ -22,8 +23,8 @@ const Projects = () => {
       title: 'Lifehub Management System',
       description: 'Comprehensive application for personal and professional management, featuring dashboard analytics, task management, and productivity tools.',
       tech: ['React', 'Node.js', 'PostgreSQL', 'Socket.io', 'Chart.js'],
-      image: '/api/placeholder/600/400',
-      liveUrl: '#',
+      image: lifehubScreenshot,
+      liveUrl: 'https://lifehub-omega.vercel.app/',
       githubUrl: '#',
     },
     {

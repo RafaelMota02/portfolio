@@ -44,47 +44,6 @@ src/
 └── main.jsx           # Application entry point
 ```
 
-## 🛠️ Installation
-
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn package manager
-
-### Setup Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/RafaelMota02/portfolio.git
-   cd portfolio
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Build for production**
-   ```bash
-   npm run build
-   ```
-
-5. **Preview production build**
-   ```bash
-   npm run preview
-   ```
-
-## 📋 Available Scripts
-
-- `npm run dev` - Start development server with hot reload
-- `npm run build` - Build the project for production
-- `npm run lint` - Run ESLint for code quality checks
-- `npm run preview` - Preview the production build locally
-
 ## 🎯 Featured Projects
 
 ### 1. Email Automation Application
@@ -98,6 +57,7 @@ A comprehensive email campaign management platform featuring SMTP configuration,
 Comprehensive application for personal and professional management, featuring dashboard analytics, task management, and productivity tools.
 
 - **Tech Stack**: React, Node.js, PostgreSQL, Socket.io, Chart.js
+- **Live Demo**: [https://lifehub-omega.vercel.app/](https://lifehub-omega.vercel.app/)
 - **Features**: Dashboard analytics, task management, productivity tracking
 
 ### 3. Quantum Random Number Generator

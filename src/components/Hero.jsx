@@ -44,7 +44,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <a
-              href="https://github.com"
+              href="https://github.com/RafaelMota02"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-600 transition-colors duration-200"
@@ -53,7 +53,7 @@ const Hero = () => {
               <FaGithub className="w-8 h-8" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/rafael-mota-aba35227b/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-600 transition-colors duration-200"
@@ -62,7 +62,7 @@ const Hero = () => {
               <FaLinkedin className="w-8 h-8" />
             </a>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:dwayceprdc@gmail.com"
               className="text-gray-400 hover:text-gray-600 transition-colors duration-200"
               aria-label="Email"
             >

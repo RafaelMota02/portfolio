@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -40,10 +40,10 @@ const Contact = () => {
       href: 'https://www.linkedin.com/in/rafael-mota-aba35227b/'
     },
     {
-      icon: FaPhone,
-      label: 'Phone',
-      value: '+351 XXX XXX XXX',
-      href: 'tel:+351XXXXXXXXX'
+      icon: FaGithub,
+      label: 'GitHub',
+      value: 'RafaelMota02',
+      href: 'https://github.com/RafaelMota02'
     },
     {
       icon: FaMapMarkerAlt,

@@ -22,9 +22,11 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <div className="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center">
-              <span className="text-gray-500 text-lg">Profile Photo</span>
-            </div>
+            <img
+              src="/src/assets/1686851019046.jpg"
+              alt="Profile Photo"
+              className="w-80 h-80 object-cover rounded-full shadow-lg mx-auto"
+            />
           </motion.div>
 
           <motion.div
