@@ -2,7 +2,10 @@
 
 A modern, responsive portfolio website showcasing my journey as a developer, highlighting full-stack development projects and quantum computing explorations.
 
+## 🚀 Live Demo
 ![Portfolio Preview](src/assets/preview.png)
+
+- **View Here**:(https://lifehub-omega.vercel.app/)
 
 ## 🌟 Features
 
