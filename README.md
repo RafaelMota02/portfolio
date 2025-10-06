@@ -5,7 +5,7 @@ A modern, responsive portfolio website showcasing my journey as a developer, hig
 ## 🚀 Live Demo
 ![Portfolio Preview](src/assets/preview.png)
 
-- **View Here**:(https://lifehub-omega.vercel.app/)
+- **View Here**:(https://rafaelmota02.github.io/portfolio/)
 
 ## 🌟 Features
 
