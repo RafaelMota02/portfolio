@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import profileImg from '/src/assets/1686851019046.jpg';
 
 const About = () => {
   return (
@@ -23,9 +24,9 @@ const About = () => {
             viewport={{ once: true }}
           >
             <img
-              src="/src/assets/1686851019046.jpg"
+              src={profileImg}
               alt="Profile Photo"
-              className="w-80 h-80 object-cover rounded-full shadow-lg mx-auto"
+              className="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 object-cover rounded-full shadow-lg mx-auto"
             />
           </motion.div>
 
