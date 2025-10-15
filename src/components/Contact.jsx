@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
@@ -15,15 +16,32 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate form submission
-    setTimeout(() => {
+
+    try {
+      const SERVICE_ID = 'service_60y9bov';
+      const TEMPLATE_ID = 'template_m650sri';
+      const PUBLIC_KEY = 'fnt6bUp603khFlx8I';
+
+      const templateParams = {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+        reply_to: formData.email,
+      };
+
+      await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY);
+
       alert('Thank you for your message! I\'ll get back to you soon.');
       setFormData({ name: '', email: '', message: '' });
+    } catch (error) {
+      console.error('EmailJS error:', error);
+      alert('Something went wrong. Please try again or contact me directly at dwayceprdc@gmail.com');
+    } finally {
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   const contactInfo = [
@@ -63,9 +81,9 @@ const Contact = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
+          <h2 className="heading-primary text-center">Get In Touch</h2>
           <div className="w-24 h-1 bg-primary-500 mx-auto"></div>
-          <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+          <p className="text-description">
             Have a project in mind or just want to chat? Feel free to reach out!
           </p>
         </motion.div>
@@ -78,7 +96,7 @@ const Contact = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-semibold text-gray-900 mb-8">Let's Connect</h3>
+            <h3 className="heading-secondary mb-8">Let's Connect</h3>
             <div className="space-y-6">
               {contactInfo.map((contact) => (
                 <motion.a

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +8,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
 }
 
@@ -24,5 +27,24 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  /* Typography utilities */
+  .heading-primary {
+    @apply text-4xl font-bold text-gray-900 mb-4;
+  }
+  .heading-secondary {
+    @apply text-2xl font-semibold text-gray-900;
+  }
+  .text-body {
+    @apply text-gray-600 leading-relaxed;
+  }
+  .text-description {
+    @apply text-gray-600 mt-4 max-w-2xl mx-auto;
+  }
+  .text-meta {
+    @apply text-sm text-gray-600;
+  }
+  .text-footnote {
+    @apply text-sm text-gray-500;
   }
 }

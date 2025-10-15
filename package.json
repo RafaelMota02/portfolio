@@ -11,7 +11,11 @@
     "deploy": "npm run build && gh-pages -f -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@gsap/react": "^2.1.2",
     "framer-motion": "^12.0.0",
+    "gsap": "^3.13.0",
+    "ogl": "^1.0.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",

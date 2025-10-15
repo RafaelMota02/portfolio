@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import profileImg from '/src/assets/1686851019046.jpg';
+import profileImg from '/src/assets/IMG_1662.jpg';
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">About Me</h2>
+          <h2 className="heading-primary text-center">About Me</h2>
           <div className="w-24 h-1 bg-primary-500 mx-auto"></div>
         </motion.div>
 
@@ -37,16 +37,16 @@ const About = () => {
             viewport={{ once: true }}
             className="space-y-6"
           >
-          <h3 className="text-2xl font-semibold text-gray-900">
+          <h3 className="heading-secondary">
             Dedicated Self-Taught Developer
           </h3>
-          <p className="text-gray-600 leading-relaxed">
+          <p className="text-body">
             My coding journey began in 2019 with academic programming projects. In 2022,
             I transitioned to focused web development and have since gained 3 years of
             practical experience through dedicated part-time learning alongside professional
             responsibilities. I've curated featured projects that showcase my strongest full-stack work.
           </p>
-          <p className="text-gray-600 leading-relaxed">
+          <p className="text-body">
             Passionate about creating digital solutions with modern technologies.
             My experience spans JavaScript frameworks, database integration,
             and emerging fields like quantum computing through Qiskit.
