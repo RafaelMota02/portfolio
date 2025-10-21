@@ -3,7 +3,7 @@
 A modern, responsive portfolio website showcasing my journey as a developer, highlighting full-stack development projects and quantum computing explorations.
 
 ## 🚀 Live Demo
-![Portfolio Preview](src/assets/preview.png)
+![Portfolio Preview](src/assets/preview.png?refresh=123)
 
 - **View Here**:(https://rafaelmota02.github.io/portfolio/)
 
