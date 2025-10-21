@@ -16,7 +16,7 @@ const Projects = () => {
       tech: ['React', 'Node.js', 'PostgreSQL', 'Express', 'Tailwind CSS'],
       image: emailScreenshot,
       liveUrl: 'https://email-automation-app-rho.vercel.app/',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/RafaelMota02/email-automation-app',
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ const Projects = () => {
       tech: ['React', 'Node.js', 'PostgreSQL', 'Socket.io', 'Chart.js'],
       image: lifehubScreenshot,
       liveUrl: 'https://lifehub-omega.vercel.app/',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/RafaelMota02/lifehub',
     },
     {
       title: 'Quantum Random Number Generator',
@@ -33,7 +33,7 @@ const Projects = () => {
       tech: ['Python', 'Qiskit', 'Quantum Computing', 'Cryptography'],
       image: quantumScreenshot,
       liveUrl: 'https://quantum-random-number-generator-po8.vercel.app/',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/RafaelMota02/quantum-random-number-generator',
     },
 
   ];
@@ -93,7 +93,7 @@ const Projects = () => {
                     <img
                       src={project.image}
                       alt={`${project.title} screenshot`}
-                      className="w-full h-64 object-cover"
+                      className="w-full h-48 sm:h-56 md:h-64 lg:h-72 xl:h-80 object-cover"
                     />
                   )}
 
