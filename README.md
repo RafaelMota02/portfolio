@@ -5,7 +5,7 @@ A modern, responsive portfolio website showcasing my journey as a developer, hig
 ## 🚀 Live Demo
 ![Portfolio Preview](src/assets/screenshot.png)
 
-- **View Here**:(https://rafaelmota02.github.io/portfolio/)
+- **View Here**: https://rafaelmota02.github.io/portfolio/
 
 ## 🌟 Features
 
