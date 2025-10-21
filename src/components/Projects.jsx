@@ -3,9 +3,9 @@ import Slider from 'react-slick';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import emailScreenshot from '../assets/email-automation.png';
-import quantumScreenshot from '../assets/quantum-random-number-gen.png';
-import lifehubScreenshot from '../assets/Screenshot_20251006_210011.png';
+import emailScreenshot from '../assets/Screenshot_20251021_174958.png';
+import quantumScreenshot from '../assets/Screenshot_20251021_175043.png';
+import lifehubScreenshot from '../assets/Screenshot_20251021_174339.png';
 
 const Projects = () => {
   const projects = [
