@@ -59,7 +59,7 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
             >
               <ShinyText
-                text="Passionate about creating digital solutions with modern technologies. Specialized in React, Node.js, and quantum computing endeavors."
+                text="Passionate about creating digital solutions with modern technologies. Specialized in Full Stack Development but not confined to it."
                 disabled={false}
                 speed={3}
                 className="text-lg text-gray-300 font-light leading-relaxed text-center"

@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: 'Quantum Random Number Generator',
       description: 'Quantum computing implementation using Qiskit to generate true random numbers, demonstrating advanced cryptographic principles.',
-      tech: ['Python', 'Qiskit', 'Quantum Computing', 'Cryptography'],
+      tech: ['Python', 'Qiskit', 'Quantum Computing', 'Flask'],
       image: quantumScreenshot,
       liveUrl: 'https://quantum-random-number-generator-po8.vercel.app/',
       githubUrl: 'https://github.com/RafaelMota02/quantum-random-number-generator',

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import profileImg from '/src/assets/IMG_1662.jpg';
+import profileImg from '/src/assets/IMG_1651.jpg';
 
 const About = () => {
   return (
@@ -26,7 +26,7 @@ const About = () => {
             <img
               src={profileImg}
               alt="Profile Photo"
-              className="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 object-cover rounded-full shadow-lg mx-auto"
+              className="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 object-cover rounded-full shadow-lg mx-auto transition-transform duration-300 hover:scale-105"
             />
           </motion.div>
 
@@ -48,8 +48,8 @@ const About = () => {
           </p>
           <p className="text-body">
             Passionate about creating digital solutions with modern technologies.
-            My experience spans JavaScript frameworks, database integration,
-            and emerging fields like quantum computing through Qiskit.
+            My experience spans Web Development, Software development, Automation
+            and emerging fields like artificial intelligence and quantum computing.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
             <div className="flex items-center gap-2">
